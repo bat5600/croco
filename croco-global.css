@@ -1,0 +1,392 @@
+/* Import Google Fonts */
+@import url("//fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap");
+
+/* Disparition GO KOLLAB */
+#tb_gokollab   {
+    display: none !important;
+}
+/* Fin de la disparition GO KOLLAB */
+
+/* S'assurer que Localize soit bien masqué */
+#localize-widget {
+  display: none !important;
+}
+
+
+/* Masquer les liens inutiles du menu paramètres */
+a#sb_conversation_ai_settings_v2, 
+a#sb_ai_agent_settings,
+a#sb_knowledge-base-settings,
+a#sb_conversations_providers
+{
+  display: none !important;
+}
+
+
+/*WHATSAPP*/
+/*Désactiver le guide d'aide LC pour WhatsApp*/
+#onboard-whatsapp-help {
+  display: none !important;
+}
+/*Augmenter le padding pour l'onboarding WhatsApp*/
+.phoneIntegrationApp .bg-white {
+  padding-left: 30px !important;
+}
+/*FIN WHATSAPP*/
+
+
+/* Désactiver Launchpad */
+#sb_launchpad{
+display: none !important;
+}
+
+/* Désactiver onglet webinaires dans sites et funnel (OFF)
+#tb_webinars{
+display: none !important;
+}*/
+
+/* Désactiver AI Agent (OFF)
+a[id="sb_AI Agents"] {
+  display: none !important;
+} */
+
+/* Désactiver App Marketplace */
+#sb_app-marketplace{
+display: none !important;
+}
+
+
+/* App */
+#app{
+font-family:'Plus Jakarta Sans', sans-serif;
+}
+
+/* Variable Font Family */
+:root {
+  --font-family-base: 'Plus Jakarta Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+/*Couleur verte en principal*/
+  :root {
+  --primary-25:  #f6fef9 !important;
+  --primary-50:  #ecfdf3 !important;
+  --primary-100: #d1fadf !important;
+  --primary-200: #a6f4c5 !important;
+  --primary-300: #6ce9a6 !important;
+  --primary-400: #32d583 !important;
+  --primary-500: #12b76a !important;
+  --primary-600: #039855 !important;
+  --primary-700: #027a48 !important;
+  --primary-800: #05603a !important;
+  --primary-900: #054f31 !important;
+}
+
+/* Font */
+.font-sans {
+  font-family: Plus Jakarta Sans !important;
+}
+.hl-text-lg-medium {
+font-family: Plus Jakarta Sans !important;
+font-weight: 600 !important;
+}
+.hl-text-sm-regular
+{
+font-family: Plus Jakarta Sans !important;
+}
+
+.font-medium {
+  font-weight: 600 !important
+}
+.hl-text-sm-medium {
+font-family: Plus Jakarta Sans !important;
+font-weight: 600 !important;
+}
+
+.span-line-clamp-2 {
+  font-weight: 500 !important;
+}
+
+.launchpad-title {
+font-family: Plus Jakarta Sans !important;
+}
+
+/* Overflow hidden (en pause car nouveau sélécteur sidebar-v2)
+.transition-slowest .flex-col > .overflow-hidden{
+background: #F3FFF5;
+}*/
+
+/* DEBUT Barre latérale gauche */
+/* Style de base de la sidebar */
+#sidebar-v2 {
+  background: #F3FFF5 !important;   /* ton fond personnalisé */
+}
+
+/* FIN Barre latérale gauche */
+
+/* Division */
+.transition-slowest .flex-col .lg\:justify-between{
+background-color:#4d8d4d !important;
+}
+
+/* Global search opener */
+#globalSearchOpener{
+background-color: #dddddda8 !important;
+}
+
+/* Search placeholder */
+#globalSearchOpener .justify-start .search-placeholder{
+color: #1d3a2f59 !important;
+}
+
+/* Search icon */
+#globalSearchOpener .justify-start .search-icon{
+color: #1d3a2f59 !important;
+}
+
+/* Heading */
+.hl_dashboard--matters-added .card-body h3{
+font-weight:600;
+}
+
+/* Heading */
+.hl_dashboard--pipeline-value .card-body h3{
+font-weight:600;
+}
+
+/* Heading */
+.hl_dashboard--conversion-rate .card-body h3{
+font-weight:600;
+}
+
+/* Heading */
+.hl_dashboard--matters-added .card-header h2{
+font-weight:600;
+}
+
+/* Heading */
+.hl_dashboard--pipeline-value .card-header h2{
+font-weight:600;
+}
+
+/* Heading */
+.hl_dashboard--conversion-rate .card-header h2{
+font-weight:600;
+}
+
+/* Heading */
+.hl_dashboard--need-action > div > div > .card-header h2{
+font-weight:600;
+}
+
+/* Heading */
+.task-list-card .card-header h2{
+font-weight:600;
+}
+
+/* Span Tag */
+#sb_other-settings .w-full span{
+background-size:auto;
+background-color:#F3FFF5 !important;
+}
+
+/* Span Tag */
+#sb_business-services .w-full span{
+background-color:#F3FFF5 !important;
+}
+
+/* Span Tag - Petit texte séparateur dans le menu des paramètres */
+.overflow-x-hidden .cursor-text span{
+ background-color:#f3fff5 !important;
+}
+
+/* Span Tag */
+#sb_my-business .w-full span{
+background-color:#F3FFF5 !important;
+}
+
+/* Cursor pointer */
+.transition-slowest .flex-col .overflow-hidden > .cursor-pointer{
+background-color:#F3FFF5 !important;
+}
+
+/* Menu Element Actif */
+body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.active, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a.active, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a:hover, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a:hover {
+background-color: #00EB79 !important;
+}
+
+/* Menu Séparateur */
+body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a.active.divider, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.active.divider {
+background-color: #F3FFF5 !important;
+}
+
+/* Enlever le côté grisé des textes */
+body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a img {
+filter: invert(1);
+}
+body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-settings nav a, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a {
+opacity: 1 !important;
+}
+
+/* Changer la couleur des textes */
+body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a .nav-title, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a .nav-title {
+color: #1d3a2f !important;
+}
+
+
+/* Changer la couleur Guided Tours */
+/* gradient generator: https://cssgradient.io/ */
+div#userflow-ui div.userflowjs-launcher {
+   background: rgb(0,235,232) !important;
+   background: linear-gradient(90deg, rgba(0,235,232,0) 0%, rgba(0,235,165,0) 36%, rgba(0,235,121,0) 100%) !important;
+
+  /* border color */
+   outline: 0px #ffffff !important;
+
+   /* font */
+   color:#1d3a2f;
+   border-width:2px;
+   border-style:dashed;
+   font-size:12px !important;
+}
+
+/* LOGIN PAGE */
+/*  Color CSS Code */
+:root {
+    --loginBtnColor: #42984f;
+    --loginBtnHover: #42984f;
+    --bodyBgColor: #fff;
+    --login-button-background-color: #00EB79;
+    --login-button-background-hover-color: #3bffa0;
+    --login-button-text-color: #1d3a2f;
+}
+
+/* BG Image CSS Code*/
+.hl_login {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/highlevel-backend.appspot.com/o/location%2F3WajUBzHFZ72vq6QGWIS%2Fimages%2F8b834445-c09d-4ce5-8492-8595fe7f4788.png?alt=media") !important;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    margin-top: -82px !important;
+    height: 100vh;
+}
+
+.hl_login--header {
+    background: #fff0 !important;
+    border-bottom: 0 !important;
+    padding: 0 !important;
+    margin-bottom: 20px !important;
+}
+
+div.hl_login--body {
+    max-width: 450px !important;
+    width: 100% !important;
+    background: var(--bodyBgColor) !important;
+    border-radius: 10px !important;
+    box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.08);
+}
+
+.hl_login--body .card {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.hl_login--body .card .card-body {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hl_login .form-control {
+    background: #fff !important;
+    font-size: .875rem;
+    color: #2a3135;
+    border: 1px solid #bdbdbd !important;
+    border-radius: 5px !important;
+    padding: 10px 10px !important;
+}
+
+.hl_login--body .login-card-heading {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.hl_login--body .heading2 {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+
+.hl_login .button-holder.form-group {
+    margin: 10px auto !important;
+}
+
+.hl_login .btn.btn-blue,
+.hl_login .btn.btn-blue:active,
+.hl_login .btn.btn-blue:focus {
+    background-color: var(--loginBtnColor);
+    border-color: var(--loginBtnColor);
+    color: #fff;
+    transition: 0.3s ease-in;
+}
+
+.hl_login .btn.btn-blue:hover {
+    background-color: var(--loginBtnHover);
+    border-color: var(--loginBtnHover);
+    color: #fff;
+    transition: 0.3s ease-in;
+}
+
+.hl_login button {
+  background-color: var(--login-button-background-color);
+  color: var(--login-button-text-color);
+  min-height: 55px;
+}
+.hl_login .hover\:bg-curious-blue-600:hover,
+.hl_login button:hover {
+  background-color: var(--login-button-background-hover-color) !important;
+}
+
+/* FIN LOGIN PAGE */
+
+/* Disparation du "en savoir plus" sur l'essai whatsapp Span Tag */
+/*#whatsapp-settings .text-xs span{
+ display:none !important;
+}
+/* Disparation du texte avec le "en savoir plus" sur l'essai whatsapp  */
+/*#whatsapp-settings div .text-xs{
+ display:none !important;
+}
+#whatsapp-settings a span{
+ visibility:hidden;
+ display:none;
+}
+
+
+/* Changement Police pour la V2 des listes de Pipelines */
+  /* Table Data */
+.hr-data-table__body .hr-data-table__body-cell{
+ font-family:'Plus Jakarta Sans', sans-serif !important;}
+
+/* Span Tag */
+#hr-ellipsis-id span{
+ font-family:'Plus Jakarta Sans', sans-serif !important;
+}
+
+
+/* Modal  mask closable */
+.hr-modal-body-wrapper div .hr-modal--mask-closable{
+ font-family:'Plus Jakarta Sans', sans-serif;
+}
